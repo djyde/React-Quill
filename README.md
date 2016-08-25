@@ -60,6 +60,8 @@ An object contains [events](http://quilljs.com/docs/api/#events)
 
 Get the HTML
 
+### members
+
 - $quill
 
 The quill instance
