@@ -2,6 +2,14 @@
 
 Quilljs in React. Based on `Quill 1.0`
 
+<a href="https://www.npmjs.com/package/%2540djyde%2Freact-quill"><img src="https://img.shields.io/npm/dm/%40djyde%2Freact-quill.svg?style=flat-square" alt="NPM downloads"></a>
+
+## Install
+
+```bash
+$ npm install @djyde/react-quill --save-dev
+```
+
 ## Quick Start
 
 ```javascript
