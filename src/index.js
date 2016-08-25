@@ -53,3 +53,5 @@ ReactQuill.propTypes = {
   events: React.PropTypes.object,
   onChange: React.PropTypes.func
 }
+
+export default ReactQuill

@@ -1,5 +1,5 @@
 {
-  "name": "djyde/react-quill",
+  "name": "react-quill",
   "version": "0.1.0",
   "description": "Quilljs in React",
   "main": "lib/react-quill.js",
