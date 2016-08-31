@@ -4,6 +4,7 @@
   "description": "Quilljs in React",
   "main": "lib/react-quill.js",
   "scripts": {
+    "dev": "webpack --config build/webpack.config.common.js -w",
     "build": "webpack --config build/webpack.config.common.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

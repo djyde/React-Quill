@@ -18,25 +18,27 @@ class ReactQuill extends React.Component {
   }
 
   __init (el) {
-    const options = {...this.props.options}
+    if (el) {
+      const options = {...this.props.options}
 
-    // init Quill
-    this.$quill = new Quill(el, options)
+      // init Quill
+      this.$quill = new Quill(el, options)
 
-    // registry event handlers
-    for (let name in this.props.events) {
-      const handler = this.props.events[name]
-      this.$quill.on(name, handler)
-    }
-
-    // registry onChange
-    this.$quill.on('text-change', () => {
-      if (this.props.onChange) {
-        this.props.onChange(this.getHTML())
+      // registry event handlers
+      for (let name in this.props.events) {
+        const handler = this.props.events[name]
+        this.$quill.on(name, handler)
       }
-    })
 
-    this.$el = el
+      // registry onChange
+      this.$quill.on('text-change', () => {
+        if (this.props.onChange) {
+          this.props.onChange(this.getHTML())
+        }
+      })
+
+      this.$el = el
+    }
   }
 
   render () {
