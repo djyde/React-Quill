@@ -1,6 +1,6 @@
 {
   "name": "@djyde/react-quill",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Quilljs in React",
   "main": "lib/react-quill.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "webpack": "^1.13.2"
   },
   "dependencies": {
-    "quill": "^1.0.0-rc.2",
+    "quill": "^1.0.0",
     "react": "^15.3.1"
   }
 }
